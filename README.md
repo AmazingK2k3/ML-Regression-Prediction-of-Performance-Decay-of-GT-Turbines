@@ -1,6 +1,9 @@
 # Maintanence of Naval Propulsion-Regression
 During the process of ship design, the optimization of propulsion systems is a crucial task.  It is important to account for the performance decay over time of the GT components such as GT turbines.  The main intention of this project is to predict the performance decay of GT turbines predicting its state coefficient with the data of key propulsion parameters such as ship speed, torque, compressor outlet pressure etc using regression analysis. Efficient and accurate prediction of degradation will help in preemptive measures to strengthen the performance of turbines and maintenance periods.
 
+Data Used: The model is trained using the UCI Maintenance of Naval Propulsion Plan dataset. The raw dataset consisted of 18 columns such as level position, air pressures, temperatures, speed etc. to predict the variable G Turbine decay state coefficient. The total number of samples available in the dataset is 11934 with no null values.
+
+
 Steps Involved:
 * Data Observation and Preparation
 * EDA: Data visualisation and understanding
